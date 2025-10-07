@@ -1,0 +1,114 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #ff6347;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard & Add Recipe links */
+a[href*="dashboard"], a[href*="add_recipe"] {
+    display: inline-block;
+    margin: 10px 10px 20px 0;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+}
+
+a[href*="dashboard"]:hover,
+a[href*="add_recipe"]:hover {
+    background-color: #45a049;
+}
+
+/* the search form */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Recipe section */
+div {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+div h3 {
+    margin-bottom: 8px;
+}
+
+div h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+div h3 a:hover {
+    color: #ff6347;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+}
