@@ -3,7 +3,7 @@
 VKitchen is a full-stack web application that allows users to create an account, log in, and upload or browse recipes shared by others.
 It was built as part of a university web development project, demonstrating skills in front-end, back-end, and database integration.
 
-#Features
+# Features
 - User authentication — secure registration and login
 
 - Recipe uploads — users can add recipes with images and ingredients
